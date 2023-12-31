@@ -82,6 +82,7 @@ wget -O main.zip https://github.com/cuongdt1994/InternetIncome/archive/refs/head
 unzip -o main.zip
 cd InternetIncome-main
 chmod +x internetIncome.sh
+./internetIncome.sh --start
 ```
 * Please edit the "properties.conf" file using the following instructions and save the changes.  
 * If you are using proxies, please set the "USE_PROXIES" value to "true". 
