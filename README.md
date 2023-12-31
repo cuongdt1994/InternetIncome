@@ -79,7 +79,6 @@ If you don't have GUI access but have terminal access, use the following command
 ```
 tdnf install -y wget sudo unzip
 wget -O main.zip https://github.com/cuongdt1994/InternetIncome/archive/refs/heads/main.zip
-sudo apt-get install unzip
 unzip -o main.zip
 cd InternetIncome-main
 chmod +x internetIncome.sh
